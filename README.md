@@ -95,4 +95,4 @@ Feel free to open issues or submit pull requests for any features or bug fixes. 
 
 ---
 
-Made with ❤️ by [Your Name]
+Made with ❤️ by [Digital Terrene]

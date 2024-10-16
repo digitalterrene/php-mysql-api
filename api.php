@@ -3,12 +3,18 @@
 require_once 'db.php';
 require_once 'CrudController.php';
 
+
 // Initialize the database connection
 $database = new Database();
 $db = $database->getConnection();
 
 // Initialize the CRUD controller
 $crud = new CrudController($db);
+
+// Allow CORS from any origin
+header("Access-Control-Allow-Origin: *");
+header("Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS");
+header("Access-Control-Allow-Headers: Content-Type, Authorization");
 
 // Handle incoming requests (CRUD operations based on URL parameters)
 $requestMethod = $_SERVER['REQUEST_METHOD'];
