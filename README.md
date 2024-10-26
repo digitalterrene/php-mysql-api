@@ -79,7 +79,7 @@ Deletes an invoice by ID. Replace `id=1` with the actual invoice ID you want to 
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/invoice-api.git
+   git clone https://github.com/digitalterrene/invoice-api.git
    ```
 
 2. Install dependencies (if any).
@@ -95,4 +95,4 @@ Feel free to open issues or submit pull requests for any features or bug fixes. 
 
 ---
 
-Made with ❤️ by [Digital Terrene]
+Made with ❤️ by Digital Terrene
